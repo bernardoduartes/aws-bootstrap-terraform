@@ -15,3 +15,9 @@ module "eks" {
     max_size = var.max_size
     desired_size = var.desired_size
 }
+
+module "s3" {
+    source = "./modules/s3"
+    app_name = var.app_name
+    cluster_name = var.cluster_name
+}

@@ -1,5 +1,5 @@
 app_name = "mybday"
-cluster_name = "mybday-cluster"
+cluster_name = "cluster"
 log_retention_day = 30
 desired_size = 2
 max_size = 4
